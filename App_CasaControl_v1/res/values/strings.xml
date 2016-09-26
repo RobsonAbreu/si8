@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, App_CasaControl_v1Activity!</string>
+    <string name="app_name">Casa Control v1</string>
+    <string name="AlarmeON">Alarme Ativado</string>
+    <string name="AlarmeOFF">Alarme Desativado</string>
+    <string name="PortaoON">Portão Fechado</string>
+    <string name="PortaoOFF">Portão Aberto</string>
+    <string name="LampadaON">Lâmpada Ligada</string>
+    <string name="LampadaOFF">Lâmpada Desligada</string>
+
+</resources>

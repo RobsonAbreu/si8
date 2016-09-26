@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgSom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/som" />
+
+        <Button
+            android:id="@+id/btComando"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/fillWrap.button"
+            android:text="Comando de Voz"
+            android:onClick="speakButtonClicked"
+            android:textColor="@color/white" 
+            android:textSize="30dp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" >
+
+        <ImageView
+            android:id="@+id/imgCadeado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="1dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/cadeado" />
+
+        <Button
+            android:id="@+id/btAlarme"
+            style="@style/fillWrap.button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Alarme"
+            android:paddingTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+    </LinearLayout>
+    
+
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgPortao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/porta" />
+
+        <Button
+            android:id="@+id/btPortao"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/fillWrap.button"
+            android:text="Portão"
+            android:textColor="@color/white" 
+            android:textSize="30dp" />
+
+    </LinearLayout>
+    
+    
+
+  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgLampada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/lampada" />
+
+        <Button
+            android:id="@+id/btLampada"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/fillWrap.button"
+            android:text="Lâmpada"
+            android:textColor="@color/white" 
+            android:textSize="30dp" />
+
+    </LinearLayout>
+   
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgArcondicionado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/arcondicionado" />
+
+        <Button
+            android:id="@+id/btArcondicionado"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/fillWrap.button"
+            android:text="Arcondicionado"
+            android:textColor="@color/white" 
+            android:textSize="30dp" />
+
+    </LinearLayout>
+   
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgSensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/sensor" />
+
+        <Button
+            android:id="@+id/btSensores"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/fillWrap.button"
+            android:text="Sensores"
+            android:textColor="@color/white" 
+            android:textSize="30dp" />
+    </LinearLayout>
+    
+
+   
+       
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgTelevisao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/televisao" />
+
+        <Button
+            android:id="@+id/btTelevisao"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/fillWrap.button"
+            android:text="Televisão"
+            android:textColor="@color/white" 
+            android:textSize="30dp" />
+
+    </LinearLayout>
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgTermometro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/termometro" />
+
+        <Button
+            android:id="@+id/btTemperatura"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/fillWrap.button"
+            android:text="Temperatura"
+            android:textColor="@color/white" 
+            android:textSize="30dp" />
+
+    </LinearLayout>
+   
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgConfiguracoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/configuracoes" />
+
+
+        <Button
+            android:id="@+id/btConfiguracoes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/fillWrap.button"
+            android:text="Configurações"
+            android:textColor="@color/white" 
+            android:textSize="30dp" />
+
+    </LinearLayout>
+ 
+
+</LinearLayout>
+</ScrollView>

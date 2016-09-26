@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<style name="fillWrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="fillWrap.button">
+        <item name="android:typeface">normal</item>
+        <item name="android:background">@drawable/button_custom</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:gravity">left</item>
+        
+    </style>
+
+</resources>
